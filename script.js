@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function () {
     var kaplamaElement = document.querySelector('.kaplama');
 
     function updateBackground() {
-        var backgroundImageUrl = temaCheckbox.checked ? 'url("https://images8.alphacoders.com/133/1337140.png")':'url("img.jpg")' ;
+        var backgroundImageUrl = temaCheckbox.checked ? 'url("https://images8.alphacoders.com/133/1337140.png")':'url("https://i.imghippo.com/files/c6mPB1718062081.jpg")' ;
         bodyElement.style.backgroundImage = backgroundImageUrl;
         kaplamaElement.style.backgroundImage = backgroundImageUrl;
     }
